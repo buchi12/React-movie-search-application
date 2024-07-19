@@ -1,0 +1,54 @@
+.App {
+    text-align: center;
+  }
+
+  
+  
+  .movie-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Make full width for small screens */
+    max-width: 300px; /* Limit max width for larger screens */
+  }
+  
+  .movie-card img {
+    max-width: 50%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    width: 50%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .movie-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .movie-card p {
+    color: #555;
+  }
+  
+  /* Media Queries for responsiveness */
+  
+  @media (min-width: 600px) {
+    .movie-card {
+      width: 45%; /* Adjust width for medium screens */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .movie-card {
+      width: 30%; /* Adjust width for large screens */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .movie-card {
+      width: 22%; /* Adjust width for extra large screens */
+    }
+  }
+  
